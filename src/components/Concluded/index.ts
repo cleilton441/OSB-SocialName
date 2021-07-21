@@ -1,0 +1,1 @@
+export { AlertConcluid } from './AlertConcluid'

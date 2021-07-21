@@ -1,0 +1,1 @@
+export { SocialName } from "./SocialName"

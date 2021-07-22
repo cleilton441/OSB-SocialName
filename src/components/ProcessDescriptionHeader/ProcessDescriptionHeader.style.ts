@@ -3,7 +3,7 @@ import { textColors } from "_config/theme";
 
 export const useStyles = makeStyles({
   title: {
-    fontWeight: 500,
+    fontWeight: 600,
     fontSize: 20,
     marginTop: 18,
     },
@@ -25,7 +25,8 @@ export const useStyles = makeStyles({
   },
 
   desc: {
-    fontWeight: 500,
+    fontWeight: 600,
+    fontSize: 13,
   },
 
   email: {

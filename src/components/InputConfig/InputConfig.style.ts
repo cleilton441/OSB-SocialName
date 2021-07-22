@@ -10,16 +10,13 @@ export const useStyle = makeStyles({
     InputConfig: {
         width: '100%',
         marginTop: 10,
+        padding: 1,
     },
 
     label: {
         marginLeft: 8,
-        fontWeight: 500,
+        fontWeight: 600,
         fontSize: 11,
         color: textColors.gray
-    }
-
-   
-
-    
+    },
 })

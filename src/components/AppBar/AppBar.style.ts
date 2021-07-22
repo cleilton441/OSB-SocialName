@@ -22,5 +22,8 @@ export const useStyles = makeStyles({
         cursor: 'pointer',
         display: 'flex',
         alignItems: 'center'
+    },
+    startIcon:{
+        fontWeight: 600, 
     }
 })

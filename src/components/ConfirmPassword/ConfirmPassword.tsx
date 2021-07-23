@@ -4,7 +4,7 @@ import { useStyles } from './ConfirmPassword.style'
 import { Button } from 'components/Button'
 import { ButtonWithFloatingIcon } from 'components/ButtonWithFloatingIcon'
 import { PasswordInput } from 'components/PasswordInput'
-import { Close } from '@material-ui/icons'
+import cancel from '_assets/img/Close.svg'
 import IconCheck from '_assets/img/IconCheck.svg'
 import './ConfirmPassword.scss'
 import Slide from '@material-ui/core/Slide'
@@ -30,7 +30,7 @@ export const ConfirmPassword : React.FC = () => {
                             <Button
                             palette="secondary"
                             size="small"
-                            startIcon={<Close color="primary" />}
+                            startIcon={<img src={cancel} alt="cancel"/>}
                             onClick={()=> dispatch({type: "HIDDEN"})}
                             >
                             Fechar

@@ -29,7 +29,7 @@ export const useStyles = makeStyles({
     fontSize: 13,
   },
 
-  email: {
+  name: {
     fontWeight: 500,
   }
 });

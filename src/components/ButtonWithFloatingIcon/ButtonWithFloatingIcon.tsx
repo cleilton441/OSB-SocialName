@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Button } from "@material-ui/core";
 import { useStyles } from "./ButtonWithFloatingIcon.style";
+import cancel from '_assets/img/Close.svg'
 
 interface ButtonWithFloatingIconProps {
   icon: string;

@@ -6,14 +6,14 @@ interface TitleAndDescritionProps {
   title: string;
   subtitle?: string;
   description?: string;
-  email?: string;
+  name?: string;
 }
 
 export const ProcessDescriptionHeader = ({
   title,
   subtitle,
   description,
-  email
+  name
 }: TitleAndDescritionProps) => {
   const styles = useStyles();
 
@@ -38,7 +38,7 @@ export const ProcessDescriptionHeader = ({
           className={styles.description}
         >
           <Typography className={styles.desc}>{description}</Typography>
-          <Typography className={styles.email}>{email}</Typography>
+          <Typography className={styles.name}>{name}</Typography>
         </Typography>
       )}
     </Box>

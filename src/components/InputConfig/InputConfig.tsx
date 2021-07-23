@@ -13,7 +13,7 @@ export const InputConfig : React.FC = () => {
             <TextField
             id="InputConfig"
             variant="outlined" 
-            placeholder={"Seu nome"} 
+            placeholder={"Seu nome "} 
             className={style.input}  />
         </div>
     )

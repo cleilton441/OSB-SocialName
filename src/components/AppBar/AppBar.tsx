@@ -2,7 +2,7 @@ import React from 'react'
 import { useStyles } from './AppBar.style'
 import { AppBar as MuiAppBar, Toolbar, Box } from '@material-ui/core'
 import logo from '_assets/img/logo.svg'
-import { Close } from '@material-ui/icons'
+import cancel from '_assets/img/cancel.png'
 import { Button } from 'components/Button'
 export const AppBar : React.FC = () => {
 
@@ -16,7 +16,7 @@ export const AppBar : React.FC = () => {
                 <Button
                 palette="secondary"
                 size="small"
-                startIcon={<Close color="primary" />}
+                startIcon={<img src={cancel} alt="cancel"/>}
                 onClick={()=> console.log("Cancelar")}
               >
                 Cancelar

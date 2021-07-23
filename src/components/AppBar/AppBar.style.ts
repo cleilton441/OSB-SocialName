@@ -23,4 +23,9 @@ export const useStyles = makeStyles({
         display: 'flex',
         alignItems: 'center'
     },
+    StartIcon: {
+        
+        paddingLeft: 19,
+
+    },
 })

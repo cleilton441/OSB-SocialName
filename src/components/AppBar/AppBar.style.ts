@@ -9,6 +9,7 @@ export const useStyles = makeStyles({
         justifyContent: 'space-between',
         alignItems: 'center',
         height: toolbarHeight,
+        minHeight: 48,
 
         [theme.breakpoints.down("sm")]: {
             height: toolbarHeight,
@@ -23,9 +24,8 @@ export const useStyles = makeStyles({
         display: 'flex',
         alignItems: 'center'
     },
-    StartIcon: {
-        
+    StartIcon: {   
         paddingLeft: 19,
-
+        fontSize: 20,
     },
 })

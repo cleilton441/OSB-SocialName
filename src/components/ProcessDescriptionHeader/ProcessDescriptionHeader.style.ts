@@ -5,8 +5,7 @@ export const useStyles = makeStyles({
   title: {
     fontWeight: 600,
     fontSize: 20,
-    marginTop: 18,
-    },
+  },
 
   subtitle: {
     marginTop: 28,
@@ -16,7 +15,7 @@ export const useStyles = makeStyles({
 
   },
   description: {
-    marginTop: 28,
+    marginTop: 30,
     color: textColors.primary,
     fontWeight: 500,
     fontSize: 14,
@@ -26,10 +25,10 @@ export const useStyles = makeStyles({
 
   desc: {
     fontWeight: 600,
-    fontSize: 13,
+    fontSize: "0.8rem",
   },
 
   name: {
     fontWeight: 500,
-  }
+  },
 });

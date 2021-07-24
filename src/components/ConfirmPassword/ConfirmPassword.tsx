@@ -25,7 +25,7 @@ export const ConfirmPassword : React.FC = () => {
 
                 <Box className={style.content}>
                     <Box className={style.header}>
-                        <Typography>Digite a sua senha</Typography>
+                        <Typography className={style.typo}>Digite a sua senha</Typography>
                         <Box className={style.buttonup}>
                             <Button
                             palette="secondary"
@@ -47,7 +47,7 @@ export const ConfirmPassword : React.FC = () => {
                     <Box className={style.footer}>
                             <ButtonWithFloatingIcon size="medium" icon={IconCheck} onClick={()=>{ 
                                 dispatch({type: "SHOWCOMPLETE"})
-                                dispatch({type: 'HIDDEN' })
+                                dispatch({type: 'SHOW' })
                             }}>
                                 Confirmar
                             </ButtonWithFloatingIcon>

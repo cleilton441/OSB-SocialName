@@ -13,14 +13,14 @@ import { AlertConcluid } from 'components/Concluded'
 
 export const SocialName : React.FC = () => {
     const stateShow = useSelector(((state: any) => state.showConfirm))
-    const styles = useStyles()
+    const styles = useStyles();
     return (
         <PageContainer>
             <ProcessPageLayout 
             appBar={ <AppBar /> }
             header={
                     <ProcessDescriptionHeader 
-                    title="Nome Social" 
+                    title="Nome social" 
                     description="xxxxxxxxxxxxxxx"
                     />
              }

@@ -14,18 +14,22 @@ export const useStyles = makeStyles({
 
     header: {
         display: 'flex',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        fontWeight: 600,
     },
 
     content: {
         marginLeft: 20,
         marginRight: 20,
         paddingTop: 14,
+        height: 212,
+    },
+    typo:{
+        fontWeight: 700,
     },
 
     txtautenticar: {
-        fontSize: 12,
-        fontWeight: 300,
+        fontSize: 13,
         fontStyle: 'normal',
         color: '#EFEFEF',
         marginTop: 12
@@ -69,7 +73,7 @@ export const useStyles = makeStyles({
     buttonup: {
         position: 'relative',
         marginTop: -30,
-    }
+    },
     
 
 

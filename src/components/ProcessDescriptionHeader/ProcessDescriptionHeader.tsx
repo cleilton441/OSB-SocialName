@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Typography } from "@material-ui/core";
 import { useStyles } from "./ProcessDescriptionHeader.style";
 
+
 interface TitleAndDescritionProps {
   title: string;
   subtitle?: string;
@@ -16,7 +17,6 @@ export const ProcessDescriptionHeader = ({
   name
 }: TitleAndDescritionProps) => {
   const styles = useStyles();
-
   return (
     <Box>
       <Typography id="pd-title" variant="h6" className={styles.title}>

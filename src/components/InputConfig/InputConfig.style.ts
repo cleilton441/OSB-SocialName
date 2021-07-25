@@ -3,7 +3,8 @@ import { textColors } from '_config/theme'
 
 export const useStyle = makeStyles({
     input: {
-        width: '99%'
+        width: 284,
+        height: 40,
 
     },
 

@@ -18,14 +18,15 @@ export const ConfirmPassword : React.FC = () => {
     })
 
     const dispatch = useDispatch()
-    const style = useStyles()
+    const style = useStyles();
+    const styles = useStyles();
     return (
         <Slide direction="up" in={ShowBool} mountOnEnter unmountOnExit>
             <Box className={style.box}>
 
                 <Box className={style.content}>
                     <Box className={style.header}>
-                        <Typography className={style.typo}>Digite a sua senha</Typography>
+                        <Typography className={style.typo}>Digite sua senha</Typography>
                         <Box className={style.buttonup}>
                             <Button
                             palette="secondary"
@@ -45,11 +46,12 @@ export const ConfirmPassword : React.FC = () => {
                     </Box> 
 
                     <Box className={style.footer}>
-                            <ButtonWithFloatingIcon size="medium" icon={IconCheck} onClick={()=>{ 
+                            <ButtonWithFloatingIcon  size="medium" icon={IconCheck} onClick={()=>{ 
                                 dispatch({type: "SHOWCOMPLETE"})
                                 dispatch({type: 'SHOW' })
-                            }}>
+                            }}><div className={styles.button}>
                                 Confirmar
+                                </div>
                             </ButtonWithFloatingIcon>
                     </Box>
                 

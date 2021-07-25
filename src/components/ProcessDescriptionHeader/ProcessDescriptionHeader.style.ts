@@ -25,7 +25,7 @@ export const useStyles = makeStyles({
 
   desc: {
     fontWeight: 600,
-    fontSize: "0.8rem",
+    fontSize: 13,
   },
 
   name: {

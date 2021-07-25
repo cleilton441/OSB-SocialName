@@ -12,6 +12,12 @@ export const useStyles = makeStyles({
         boxShadow: '0px -2px 2px rgba(0, 0, 0, 0.3)',
     },
 
+    button:{
+        width: 43,
+        height: 11,
+        marginBottom: 5,
+    },
+
     header: {
         display: 'flex',
         justifyContent: 'space-between',
@@ -29,7 +35,7 @@ export const useStyles = makeStyles({
     },
 
     txtautenticar: {
-        fontSize: 13,
+        fontSize: 12,
         fontStyle: 'normal',
         color: '#EFEFEF',
         marginTop: 12
@@ -75,6 +81,10 @@ export const useStyles = makeStyles({
         marginTop: -30,
     },
     
+    close:{
+        width: 32,
+        height: 11,
+    }
 
 
 })

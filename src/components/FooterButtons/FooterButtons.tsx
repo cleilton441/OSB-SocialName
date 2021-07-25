@@ -1,20 +1,24 @@
 import React from 'react'
 import { Button } from 'components/Button'
 import { useStyles } from './FooterButtons.style'
-import { KeyboardArrowLeft, KeyboardArrowRight } from '@material-ui/icons'
+import vector from '../../_assets/img/Vector.svg'
+import vector1 from '../../_assets/img/vector1.svg'
 import { useDispatch } from 'react-redux'
 
 export const FooterButtons : React.FC = () =>{
-    const dispatch = useDispatch()
-    const style = useStyles()
+    const dispatch = useDispatch();
+    const style = useStyles();
+    const styles = useStyles();
     return (
         <div className={style.buttonsWrapper}>
-            <Button palette="secondary" onClick={()=> console.log("Voltar")} startIcon={ <KeyboardArrowLeft color="primary" radius={20}/>} >
-                Voltar
+            <Button palette="secondary" onClick={()=> console.log("Voltar")} startIcon={<img src={vector1} alt="concluido"
+             className={styles.imgconc}/>} >
+                   Voltar
             </Button>
 
-            <Button palette="primary" onClick={() => dispatch({type: "SHOW"})} endIcon={ <KeyboardArrowRight color="secondary" /> }>
-                Próximo
+            <Button palette="primary" onClick={() => dispatch({type: "SHOW"})} endIcon={<img src={vector} alt="concluido" 
+             className={styles.imgconc}/>}>
+                    Próximo
             </Button>
         </div>
     )

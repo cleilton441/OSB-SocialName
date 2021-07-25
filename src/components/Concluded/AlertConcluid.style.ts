@@ -10,7 +10,7 @@ export const useStyle = makeStyles({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        marginTop: 40,
+        marginTop: 57,
     },
 
     txtconcluido: {

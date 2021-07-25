@@ -35,4 +35,9 @@ export const useStyles = makeStyles({
       right: 0,
     },
   },
+  imgconc:{
+    marginTop: 3,
+    width: 14,
+    height: 8,
+  }
 });

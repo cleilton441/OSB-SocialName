@@ -34,7 +34,9 @@ export const ConfirmPassword : React.FC = () => {
                             startIcon={<img src={cancel} alt="cancel"/>}
                             onClick={()=> dispatch({type: "HIDDEN"})}
                             >
+                            <div className={styles.close}>
                             Fechar
+                            </div>
                         </Button>
                     </Box>
                     </Box>

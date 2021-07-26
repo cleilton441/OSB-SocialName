@@ -82,8 +82,9 @@ export const useStyles = makeStyles({
     },
     
     close:{
-        width: 32,
-        height: 11,
+        width: 31,
+        height: 12,
+        marginBottom: 4,
     }
 
 

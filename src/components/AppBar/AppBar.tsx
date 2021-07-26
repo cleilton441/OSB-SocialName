@@ -19,7 +19,9 @@ export const AppBar : React.FC = () => {
                 startIcon={<img src={cancel} alt="cancel"/>}
                 onClick={()=> console.log("Cancelar")}
               >
+                <div className={styles.cancel}>
                 Cancelar
+                </div>
               </Button>
 
             </Toolbar>

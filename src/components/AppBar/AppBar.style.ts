@@ -28,4 +28,9 @@ export const useStyles = makeStyles({
         paddingLeft: 19,
         fontSize: 20,
     },
+    cancel:{
+        width: 40,
+        height: 12,
+        marginBottom: 4,
+    }
 })

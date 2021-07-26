@@ -13,12 +13,16 @@ export const FooterButtons : React.FC = () =>{
         <div className={style.buttonsWrapper}>
             <Button palette="secondary" onClick={()=> console.log("Voltar")} startIcon={<img src={vector1} alt="concluido"
              className={styles.imgconc}/>} >
+                 <div className={style.back}>
                    Voltar
+                </div>
             </Button>
 
-            <Button palette="primary" onClick={() => dispatch({type: "SHOW"})} endIcon={<img src={vector} alt="concluido" 
-             className={styles.imgconc}/>}>
-                    Próximo
+            <Button palette="primary" onClick={() => dispatch({type: "SHOW"})} endIcon={<img src={vector} alt="concluido" className={styles.imgconc}/>}
+             >
+                <div className={style.back}>
+                  Próximo
+                </div>
             </Button>
         </div>
     )
